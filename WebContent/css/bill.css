@@ -1,0 +1,355 @@
+/*�쟾泥� �쁺�뿭 �꽕�젙 */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+h1 {
+	font-family :'Hanna';
+}
+h2 {
+	font-family :'Hanna';
+}
+h3 {
+	font-family :'jejuhallasan';
+}
+
+h4 {
+	font-family :'Hanna';
+}
+h5 {
+	font-family :'Hanna';
+}
+h6 {
+	font-family :'Hanna';
+}
+
+button {
+	font-family : 'jejugothic';
+	bolder :0;
+	outline : 0;
+}
+a{
+font-family: 'nanumgothic';	/*�굹�닎怨좊뵓泥�  */
+}
+a{							/*a�깭洹� */
+	color:#000000;
+	text-decoration:none;
+}
+a:hover{ 					/*a�깭洹� �꽑�깮�떆  */
+	color:#bbbbbb;
+	text-decoration: none;
+	cursor:pointer;
+}
+p{
+	font-family:"hanna";
+}
+.footer{
+background-color: black;
+color:white;
+}
+.navbar-default{				/* �꽕鍮꾧쾶�씠�뀡 諛�  */
+	background-color: #000000;
+	border-color:#000000;
+}
+.navbar-default .navbar-brand{	/* �꽕鍮꾧쾶�씠�뀡 �젣紐�   */
+	color:#ffffff;
+}
+.navbar-default .navbar-brand:hover,	/*�꽕鍮꾧쾶�씠�뀡 �젣紐⑹뿉 留덉슦�뒪�삱由대븣   */
+.navbar-default .navbar-brand:focus{
+	background-color: transparent;
+	color:#bbbbbb;
+}
+.navbar-default .navbar-nav > .active > a,	/*�꽕鍮꾧쾶�씠�뀡 諛붾�� �꽑�깮�뻽�쓣 �븣  */
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+	color:blue;
+	background-color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover,		/*�꽕鍮꾧쾶�씠�뀡�뿉 �뱶�엻�떎�슫 諛뺤뒪�뿉 留덉슦�뒪瑜� �삱�졇�쓣�븣     */
+.navbar-default .navbar-nav > li > a:focus{
+	color:#bbbbbb;
+}
+
+.navbar-default .navbar-nav > .open > a,		/*�꽕鍮꾧쾶�씠�뀡�뿉 �뱶�엻�떎�슫 諛뺤뒪媛� �뿴�졇�쓣�븣   */
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+	color:black;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav >li >a {
+	color:white;
+}
+
+
+@media(max-width:767px){ 					/*�옉���솕硫댁뿉�꽌 硫붾돱諛� �삱諛붾Ⅸ �깋�긽 吏��젙�빐二쇨린  */
+	.navbar-default .navbar-nav .open .dropdown-meun ?li >a {
+		color:#ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-meun ?li >a:hover,
+	.navbar-default .navbar-nav .open .dropdown-meun ?li >a :focus{
+		color:#bbbbbb;
+	}
+}
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+ 	  .loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+
+
+
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+.wrapper:after {
+  padding-top: 42.85714285714287%;
+  display: block;
+  content: '';
+}
+.wrapper .column {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14.2857142857142857%;
+  float: left;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.wrapper .column .inner {
+  width: 100%;
+  position: relative;
+}
+.wrapper .column .inner:after {
+  padding-top: 100%;
+  /* ratio 1:1 */
+  display: block;
+  content: '';
+}
+.wrapper .column .inner:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.wrapper .column .inner:hover:before {
+  background-color: rgba(0, 0, 0, 0);
+}
+.wrapper .column:nth-child(1) {
+  width: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(2) {
+  left: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(3) {
+  left: 28.5714285714285714%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.wrapper .column:nth-child(4) {
+  width: 28.5714285714285714%;
+  left: 42.85714285714286%;
+  top: 0;
+}
+.wrapper .column:nth-child(4) .inner:after {
+  padding-top: 48.7%;
+}
+.wrapper .column:nth-child(5) {
+  left: 71.42857142857143%;
+  top: 0;
+}
+.wrapper .column:nth-child(6) {
+  left: auto;
+  right: 0;
+  top: 0;
+}
+.wrapper .column:nth-child(7) {
+  left: 71.42857142857143%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.wrapper .column:nth-child(8) {
+  left: auto;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.wrapper .column:nth-child(9) {
+  width: 28.5714285714285714%;
+  top: auto;
+  left: 0;
+  bottom: 0;
+}
+.wrapper .column:nth-child(9) .inner:after {
+  padding-top: 48.7%;
+}
+.wrapper .column:nth-child(10) {
+  left: 28.5714285714285714%;
+  top: auto;
+  bottom: 0;
+}
+.wrapper .column:nth-child(11) {
+  left: 42.85714285714286%;
+  top: auto;
+  bottom: 0;
+  width: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(12) {
+  left: auto;
+  top: auto;
+  bottom: 0;
+  right: 0;
+  width: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(12) .inner:after {
+  padding-top: 48.7%;
+}
+/* BEAUTY */
+
+.wrapper .column .inner {
+  background-size: cover;
+  background-position: center;
+}
+.wrapper .column:nth-child(1) .inner {
+  background-image: url('../img/1.jpg');
+}
+.wrapper .column:nth-child(2) .inner {
+  background-image: url('../img/2.jpeg');
+}
+.wrapper .column:nth-child(3) .inner {
+  background-image: url('../img/3.jpg');
+}
+.wrapper .column:nth-child(4) .inner {
+  background-image: url('../img/4.jpg');
+}
+.wrapper .column:nth-child(13) .inner {
+  background-image: url('../img/11.jpg');
+}.wrapper .column:nth-child(5) .inner {
+  background-image: url('../img/7.jpeg');
+}
+.wrapper .column:nth-child(6) .inner {
+  background-image: url('../img/8.jpg');
+}
+.wrapper .column:nth-child(7) .inner {
+  background-image: url('../img/9.jpg');
+}
+.wrapper .column:nth-child(8) .inner {
+  background-image: url('../img/10.jpg');
+}
+.wrapper .column:nth-child(9) .inner {
+  background-image: url('../img/12.jpg');
+}
+.wrapper .column:nth-child(10) .inner {
+  background-image: url('../img/5.jpg');
+}
+.wrapper .column:nth-child(11) .inner {
+  background-image: url('../img/6.jpg');
+}
+.wrapper .column:nth-child(12) .inner {
+  background-image: url('../img/13.jpg');
+}
